@@ -1,0 +1,33 @@
+.departments{
+  display: flex;
+
+  .departments__container{
+      display: flex;
+      margin: 30px;
+      gap: 30px;
+
+  .department__card{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    button{
+      height: 100%;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    .department__card-link{
+      height: 100%;
+      width: 100%;
+      text-decoration: none;
+      font-size: 21px;
+      text-transform: uppercase;
+      color: black;
+    }
+  }
+  }
+}

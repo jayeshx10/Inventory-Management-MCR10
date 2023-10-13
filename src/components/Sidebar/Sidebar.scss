@@ -1,0 +1,20 @@
+.sidebar__ul{
+  list-style: none;
+  font-size: 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: left;
+  height: 100vh;
+  width: 300px;
+  background-color: grey;
+  
+  .sidebar__li{
+    margin: 30px 0 0 10px;
+
+    .sidebar__links{
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
